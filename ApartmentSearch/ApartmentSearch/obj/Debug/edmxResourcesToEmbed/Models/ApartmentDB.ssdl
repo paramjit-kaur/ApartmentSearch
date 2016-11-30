@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ApartmentsModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ApartmentsModelStoreContainer">
+    <EntitySet Name="Apartment" EntityType="ApartmentsModel.Store.Apartment" store:Type="Tables" store:Schema="dbo" store:Name="Apartment">
+      <DefiningQuery>SELECT 
+      [Apartment].[ID] AS [ID], 
+      [Apartment].[Address] AS [Address], 
+      [Apartment].[City] AS [City], 
+      [Apartment].[Suburb] AS [Suburb], 
+      [Apartment].[Rooms] AS [Rooms], 
+      [Apartment].[Bathrooms] AS [Bathrooms], 
+      [Apartment].[Carports] AS [Carports]
+      FROM [dbo].[Apartment] AS [Apartment]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="sysdiagrams" EntityType="ApartmentsModel.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'Apartments.dbo.Apartment' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="Apartment">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="Address" />
+      <PropertyRef Name="City" />
+      <PropertyRef Name="Suburb" />
+      <PropertyRef Name="Rooms" />
+      <PropertyRef Name="Bathrooms" />
+      <PropertyRef Name="Carports" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Address" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="City" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Suburb" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Rooms" Type="int" Nullable="false" />
+    <Property Name="Bathrooms" Type="numeric" Nullable="false" Precision="9" Scale="1" />
+    <Property Name="Carports" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+</Schema>
