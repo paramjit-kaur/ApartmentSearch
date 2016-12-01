@@ -1,4 +1,5 @@
 ﻿@model List<ApartmentSearch.Models.Apartment>
+
 @{
     ViewBag.Title = "Search Apartments";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -23,10 +24,10 @@
             </div>
             <div>
                 @using (Html.BeginForm("Search", "Apartment"))
-                {               
+                {                   
                     <table>
                         <tr>
-                            <td class="table-td">
+                            <td>
                                 @Html.Label("Address:")</td>
                             <td style="padding: 3px">@Html.TextBox("Address")</td>
                         </tr>
@@ -108,18 +109,22 @@
                                         @foreach (var searchedApartments in Model)
                                         {                                              
                                             <tr>
-                                                <td>@if ((ViewData["Address"])!=null)
-                                                    {
-                                                    @Html.Raw(searchedApartments.Address.Replace((string)ViewData["Address"], "<span class='highlighted'>" + (string)ViewData["Address"] + "</span>"))
+                                                <td>@if (ViewData["Address"] != null)
+                                                    {                                                       
+                                                    @Html.Raw(@searchedApartments.Address.Replace((string)ViewData["Address"],
+                                                    "<span  class='highlighted'>" + (string)ViewData["Address"] + "</span>"))
                                                     }
                                                     else
                                                     {
                                                     @searchedApartments.Address
                                                     }
+
+
                                                 </td>
-                                                <td>@if ((ViewData["Suburb"]!=null))
+                                                <td>@if (ViewData["Suburb"] != null)
                                                     {
-                                                    @Html.Raw(searchedApartments.Suburb.Replace((string)ViewData["Suburb"], "<span class='highlighted'>" + (string)ViewData["Suburb"] + "</span>"))
+                                                    @Html.Raw(@searchedApartments.Suburb.Replace((string)ViewData["Suburb"],
+                                                    "<span  class='highlighted'>" + (string)ViewData["Suburb"] + "</span>"))
                                                     }
                                                     else
                                                     {
