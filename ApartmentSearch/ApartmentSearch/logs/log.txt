@@ -1,0 +1,9 @@
+INFO  2016-12-01 17:26:26,164   896ms ApartmentController    Index              - url visited by user:/apartment
+INFO  2016-12-01 17:26:26,321  1052ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 17:26:27,231  1963ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 17:28:35,893 130624ms ApartmentController    Index              - url visited by user:/apartment
+INFO  2016-12-01 17:28:35,895 130626ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 17:28:36,015 130746ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 17:30:29,474   393ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 17:30:29,495   413ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 17:30:29,681   600ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.

@@ -39,6 +39,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.5\lib\net45-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\CommonServiceLocator.1.0\lib\NET35\Microsoft.Practices.ServiceLocation.dll</HintPath>
@@ -277,6 +281,7 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Apartment\Index.cshtml" />
+    <Content Include="Views\Apartment\Search.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

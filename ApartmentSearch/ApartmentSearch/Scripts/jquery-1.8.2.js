@@ -1422,7 +1422,7 @@ jQuery.support = (function() {
 		}
 
 		container = document.createElement("div");
-		container.style.cssText = "visibility:hidden;border:0;width:0;height:0;position:static;top:0;margin-top:1px";
+		container.style.cssText = "visibility:hidden;border:0;width:0;height:0;position:static;top:0;margin-top:5px";
 		body.insertBefore( container, body.firstChild );
 
 		// Construct the test element

@@ -11,6 +11,8 @@ namespace ApartmentSearch.Controllers
     {
 
         private IApartmentService service;
+        log4net.ILog logger = log4net.LogManager.GetLogger(typeof(ApartmentController));  //Declaring Log4Net  
+
 
         public ApartmentController()
         {
@@ -26,12 +28,16 @@ namespace ApartmentSearch.Controllers
 
         public ActionResult Index()
         {
+            logger.Info("url visited by user:/apartment/Index");  //Adding url details into logger.
+
             IEnumerable<IGrouping<string, Apartment>> apartments = service.GroupApartments();    //Retrieving list of all the apartments calling service method.
             return View(apartments);
         }
 
         public ActionResult Search(string city, string address, string suburb, int rooms, decimal bathrooms, int carports)
         {
+            logger.Info("url visited by user:/apartment/search");  //Adding url details into logger.
+
             List<Apartment> apartments = service.GetApartmentsByParameters(city, address, suburb, rooms, bathrooms, carports);    //Retrieving list of all the apartments calling service method.
             return View(apartments);
         }

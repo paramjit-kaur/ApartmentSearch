@@ -10,6 +10,7 @@ namespace ApartmentSearch.Models
         #region Fields
 
         private ApartmentsEntities apartmentDB = new ApartmentsEntities();  //Declaring ApartmentEntities
+        log4net.ILog logger = log4net.LogManager.GetLogger(typeof(ApartmentService));  //Declaring Log4Net 
 
         #endregion Fields
 
@@ -22,11 +23,13 @@ namespace ApartmentSearch.Models
         {
             try
             {
+                logger.Info("Fetching list of all apartments from database.");
                 List<Apartment> apartments = apartmentDB.Apartments.ToList();
                 return apartments;
             }
             catch (Exception ex)
             {
+                logger.Error(ex.ToString());    //Logging the exception into logger file.
                 throw ex;
             }
         }
@@ -37,9 +40,18 @@ namespace ApartmentSearch.Models
         /// <returns></returns>
         public IEnumerable<IGrouping<string, Apartment>> GroupApartments()
         {
-            List<Apartment> apartments = GetAllApartments();
-            IEnumerable<IGrouping<string, Apartment>> groups = apartments.GroupBy(x => x.Suburb);   //create grouppings according to Suburb as the key.
-            return groups;
+            try
+            {
+                List<Apartment> apartments = GetAllApartments();
+                logger.Info("Grouping apartments according to Suburbs.");
+                IEnumerable<IGrouping<string, Apartment>> groups = apartments.GroupBy(x => x.Suburb);   //create grouppings according to Suburb as the key.
+                return groups;
+            }
+            catch (Exception ex)
+            {
+                logger.Error(ex.ToString());    //Logging the exception into logger file.
+                throw ex;
+            }
         }
 
         /// <summary>
@@ -56,6 +68,8 @@ namespace ApartmentSearch.Models
         {
             try
             {
+                logger.Info("Seraching apartments according to parameters entered by the user.");
+
                 var apartments = (from apartment in apartmentDB.Apartments
                                   where apartment.City == city || apartment.Address == address ||
                                   apartment.Suburb == suburb || apartment.Rooms == rooms ||
@@ -65,6 +79,7 @@ namespace ApartmentSearch.Models
             }
             catch (Exception ex)
             {
+                logger.Error(ex.ToString());    //Logging the exception into logger file.
                 throw ex;
             }
         }

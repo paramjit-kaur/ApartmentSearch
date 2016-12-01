@@ -2,6 +2,7 @@ F:\ApartmentSearch\ApartmentSearch\ApartmentSearch\bin\ApartmentSearch.dll
 F:\ApartmentSearch\ApartmentSearch\ApartmentSearch\bin\ApartmentSearch.pdb
 F:\ApartmentSearch\ApartmentSearch\ApartmentSearch\bin\Antlr3.Runtime.dll
 F:\ApartmentSearch\ApartmentSearch\ApartmentSearch\bin\EntityFramework.dll
+F:\ApartmentSearch\ApartmentSearch\ApartmentSearch\bin\log4net.dll
 F:\ApartmentSearch\ApartmentSearch\ApartmentSearch\bin\Microsoft.Practices.ServiceLocation.dll
 F:\ApartmentSearch\ApartmentSearch\ApartmentSearch\bin\Microsoft.Practices.Unity.Configuration.dll
 F:\ApartmentSearch\ApartmentSearch\ApartmentSearch\bin\Microsoft.Practices.Unity.dll
@@ -20,6 +21,7 @@ F:\ApartmentSearch\ApartmentSearch\ApartmentSearch\bin\System.Web.WebPages.dll
 F:\ApartmentSearch\ApartmentSearch\ApartmentSearch\bin\System.Web.WebPages.Razor.dll
 F:\ApartmentSearch\ApartmentSearch\ApartmentSearch\bin\Unity.Mvc3.dll
 F:\ApartmentSearch\ApartmentSearch\ApartmentSearch\bin\WebGrease.dll
+F:\ApartmentSearch\ApartmentSearch\ApartmentSearch\bin\log4net.xml
 F:\ApartmentSearch\ApartmentSearch\ApartmentSearch\bin\Microsoft.Practices.ServiceLocation.pdb
 F:\ApartmentSearch\ApartmentSearch\ApartmentSearch\bin\Microsoft.Practices.ServiceLocation.xml
 F:\ApartmentSearch\ApartmentSearch\ApartmentSearch\bin\Microsoft.Practices.Unity.xml
@@ -36,4 +38,3 @@ F:\ApartmentSearch\ApartmentSearch\ApartmentSearch\bin\System.Web.WebPages.Deplo
 F:\ApartmentSearch\ApartmentSearch\ApartmentSearch\bin\System.Web.WebPages.Razor.xml
 F:\ApartmentSearch\ApartmentSearch\ApartmentSearch\obj\Debug\ApartmentSearch.dll
 F:\ApartmentSearch\ApartmentSearch\ApartmentSearch\obj\Debug\ApartmentSearch.pdb
-F:\ApartmentSearch\ApartmentSearch\ApartmentSearch\obj\Debug\ApartmentSearch.csprojResolveAssemblyReference.cache

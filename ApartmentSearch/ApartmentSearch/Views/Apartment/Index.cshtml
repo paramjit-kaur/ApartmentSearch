@@ -9,64 +9,70 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-    <div class="content-wrapper">
-        <div class="float-left">
-
-            <h3>Apartments</h3>
-
-        </div>
-    </div>
 </header>
 <div id="body">
     <section>
         <div class="container">
             <div id="allApartments">
+                <div class="form-horizontal">
+                    <h3>Apartments</h3>
+                </div>
                 @if (Model != null)
                 {
-                    <div>
-                        @foreach (var grouppedApartments in Model)
-                        {
-
-                            string suburbKey = grouppedApartments.Key;
-                            <h5>@suburbKey</h5>
-
-                            foreach (var apartment in grouppedApartments)
+                    <small>
+                        <div>
+                            @foreach (var grouppedApartments in Model)
                             {
+                                int counter = 0;
+                                string suburbKey = grouppedApartments.Key;
+                                <h6><b>@suburbKey,</b></h6>
+                                foreach (var apartment in grouppedApartments)
+                                {
+                                    counter++;
                                 
-                            <h5>@apartment.City</h5>
-                            <table class="table table-hover">
-                                <tbody>
-                                    <tr>
-                                        <th>Address</th>
-                                        <td>
-                                            @apartment.Address
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th>Rooms</th>
-                                        <td>
-                                            @apartment.Rooms
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th>Bathrooms</th>
-                                        <td>
-                                            @apartment.Bathrooms
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th>Carports</th>
-                                        <td>
-                                            @apartment.Carports
-                                        </td>
-                                    </tr>
-                                </tbody>
+                                <h6>@apartment.City</h6>
+                                <table class="table table-condensed table-hover">
+                                    <tbody>
+                                        <tr>
+                                            <td class="col-sm-1"><b>@counter</b>
+                                            </td>
+                                        <td class="col-sm-2"><b>Address</b></td>
+                                            <td class="col-sm-3">
+                                                @apartment.Address
+                                            </td>
+                                            <td class="col-sm-6"></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td><b>Rooms</b></td>
+                                            <td>
+                                                @apartment.Rooms
+                                            </td>
+                                             <td class="col-sm-6"></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td><b>Bathrooms</b></td>
+                                            <td>
+                                                @apartment.Bathrooms
+                                            </td>
+                                             <td class="col-sm-6"></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td><b>Carports</b></td>
+                                            <td>
+                                                @apartment.Carports
+                                            </td>
+                                             <td class="col-sm-6"></td>
+                                        </tr>
+                                    </tbody>
 
-                            </table>
+                                </table>
+                                }
                             }
-                        }
-                    </div>                                          
+                        </div>
+                    </small>                                       
                 }
             </div>
         </div>
