@@ -21,7 +21,7 @@ namespace ApartmentSearch.Models
         /// <param name="bathrooms"></param>
         /// <param name="carports"></param>
         /// <returns>List of apartments.</returns>
-        List<Apartment> GetApartmentsByParameters(string city, string address, string suburb, int rooms, decimal bathrooms, int carports);
+        List<Apartment> GetApartmentsByParameters(Apartment searchApartment);
 
         ///<summary>
         /// Fetches a groupped list of apartments according to suburb

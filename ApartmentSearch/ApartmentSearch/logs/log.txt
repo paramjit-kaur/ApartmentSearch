@@ -7,3 +7,513 @@ INFO  2016-12-01 17:28:36,015 130746ms ApartmentService       GroupApartments   
 INFO  2016-12-01 17:30:29,474   393ms ApartmentController    Index              - url visited by user:/apartment/Index
 INFO  2016-12-01 17:30:29,495   413ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
 INFO  2016-12-01 17:30:29,681   600ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 17:37:07,032 397950ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 17:37:07,033 397952ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 17:37:07,203 398121ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 18:41:25,862   633ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 18:41:25,903   674ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 18:41:26,371  1142ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 18:43:17,124   417ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 18:43:17,152   445ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 18:43:17,626   919ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 18:43:25,830  9123ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 18:43:25,830  9123ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 18:43:25,833  9126ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 18:43:28,977 12271ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 18:43:28,979 12273ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 18:43:28,997 12290ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 18:43:34,384 17677ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 18:43:34,384 17677ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 18:43:34,386 17679ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 18:45:50,206   396ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 18:45:50,225   415ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 18:45:50,356   545ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 18:46:07,885 18074ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 18:46:19,243 29433ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 18:50:00,108 250298ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 18:50:00,113 250303ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 18:50:08,208 258398ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 18:50:08,209 258399ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 18:50:11,675 261864ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 18:50:11,676 261866ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 20:42:01,290 6971480ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 20:42:01,293 6971483ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 20:42:09,316 6979506ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 20:42:09,317 6979507ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 20:42:39,626 7009816ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 20:42:39,628 7009818ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 20:45:00,305 7150495ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 20:45:00,306 7150495ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 20:48:09,977   529ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 20:48:10,032   585ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 20:48:10,360   912ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 20:48:21,326 11878ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 20:48:31,925 22477ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 20:48:33,899 24451ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 20:48:57,308 47860ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 20:49:12,033 62586ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 20:50:21,550   684ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 20:50:21,570   703ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 20:50:22,009  1143ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 20:50:35,148 14281ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 20:54:47,329 266462ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 20:54:51,314 270448ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:00:24,977   313ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 21:00:24,996   332ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 21:00:25,251   587ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 21:00:34,488  9824ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:01:34,022   403ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 21:01:34,040   421ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 21:01:34,167   549ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 21:01:42,693  9075ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:01:54,603 20985ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:02:00,330 26711ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:03:26,489 112871ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:03:27,647 114028ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:04:03,873 150254ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:04:03,874 150256ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:04:47,261 193642ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:04:47,261 193643ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:04:54,762 201144ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:04:54,763 201145ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:13:03,074   331ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 21:13:03,097   354ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 21:13:03,371   628ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 21:13:09,118  6375ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:13:13,062 10319ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:13:13,065 10322ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:13:35,796 33053ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:13:35,797 33054ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:13:37,843 35100ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:13:37,844 35101ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:13:43,139 40397ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:13:43,140 40398ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:13:48,363 45620ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:13:48,365 45622ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:15:05,861   446ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 21:15:05,862   446ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:15:05,861   446ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:15:05,881   465ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 21:15:06,076   661ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 21:15:20,117 14701ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:15:20,120 14704ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:15:47,712 42297ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:15:47,714 42298ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:15:49,240 43824ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:15:49,241 43825ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:15:50,699 45283ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:16:27,403 81988ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:16:30,887 85471ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:16:30,888 85473ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:16:33,077 87661ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:16:33,078 87662ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:16:34,230 88814ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:16:34,232 88816ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:16:48,326 102911ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:16:49,717 104302ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:16:49,718 104303ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:16:51,667 106251ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:16:51,668 106252ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:16:52,802 107386ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:16:52,803 107387ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:16:53,843 108427ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:16:57,117 111702ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:16:57,118 111703ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:17:54,238 168822ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:17:59,397 173982ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:18:00,765 175349ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:18:00,766 175350ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:18:27,358 201942ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:18:27,359 201943ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:18:35,650 210234ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:19:23,206 257790ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:19:23,207 257792ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:19:33,961 268545ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:19:53,824 288409ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:19:56,818 291402ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:19:56,819 291403ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:20:02,112 296696ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:24:53,477 588062ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:24:53,480 588064ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:32:05,711 1020295ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:34:13,464 1148048ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:34:39,317 1173902ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:34:59,216 1193800ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:35:13,041 1207625ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:35:13,042 1207626ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:36:20,896 1275481ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:41:08,455 1563040ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:41:13,342 1567926ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:41:18,699 1573284ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 21:41:18,700 1573285ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 21:41:18,968 1573552ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 21:41:54,324 1608908ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 21:41:54,325 1608910ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 21:41:54,328 1608913ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 21:41:58,508 1613092ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:42:55,311 1669896ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:43:07,421 1682005ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:43:08,645 1683229ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:43:08,646 1683231ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:44:32,142 1766726ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:44:35,513 1770097ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:44:35,515 1770099ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:50:17,946   601ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:50:19,357  2011ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:50:21,561  4216ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:50:23,695  6350ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:50:23,698  6353ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:51:06,253 48908ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:51:07,827 50482ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:51:09,310 51965ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:51:09,311 51966ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:51:22,341 64996ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:51:22,341 64996ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:51:50,552 93207ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:51:50,553 93208ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:51:51,784 94439ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:51:51,785 94440ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:51:53,139 95794ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:51:54,811 97466ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:51:54,812 97467ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:52:05,300 107955ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:52:05,301 107956ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:52:52,385 155040ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:56:26,173 368828ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:57:09,885 412540ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:57:13,185 415840ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:57:13,185 415840ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:57:22,301 424956ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:57:24,602 427257ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:57:24,602 427257ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 21:58:00,554 463209ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 21:58:16,809 479464ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:03:20,800 783455ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:03:36,842 799497ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:03:48,354 811009ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:03:48,355 811010ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:04:52,340 874995ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:05:14,097 896752ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:26:33,908 2176563ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:26:50,009 2192664ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:26:50,010 2192665ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:27:07,948 2210603ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:27:07,949 2210604ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:27:11,318 2213973ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:27:11,321 2213976ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:27:16,563 2219218ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:27:16,563 2219218ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:27:18,672 2221327ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:27:18,674 2221329ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:27:44,475 2247130ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:27:44,476 2247131ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:28:19,122 2281777ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:28:19,122 2281777ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:28:23,324 2285979ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:28:23,326 2285981ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:28:30,087 2292742ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:28:30,088 2292743ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:28:32,821 2295476ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:28:32,822 2295477ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:28:37,890 2300544ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:28:37,891 2300545ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:31:05,041 2447696ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:31:25,257 2467912ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:32:06,878 2509533ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:32:32,937 2535592ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:32:39,864 2542519ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:32:41,589 2544244ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:32:41,590 2544244ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:34:54,120 2676775ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:34:57,082 2679736ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:35:26,958 2709613ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:36:06,644 2749299ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:36:08,603 2751258ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:36:10,579 2753234ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:36:18,748 2761403ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 22:36:18,750 2761405ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 22:36:18,940 2761595ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 22:36:36,047 2778702ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 22:36:36,048 2778703ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 22:36:36,276 2778931ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 22:36:46,850 2789505ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:36:49,001 2791655ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:37:31,895 2834549ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:37:34,897 2837552ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:38:02,583  1020ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:38:02,583  1020ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:38:12,378 10816ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:38:19,342 17779ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:38:19,344 17782ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:38:27,953 26390ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:38:27,954 26391ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:38:33,278 31716ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:38:33,279 31717ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:39:23,438 81875ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:42:25,514 263951ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:44:09,472 367909ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:44:12,428 370866ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:45:04,370 422807ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:46:20,158 498595ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:46:32,734 511172ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:46:32,735 511173ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:49:23,026 681463ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 22:49:23,026 681463ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 22:49:24,202 682639ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 22:49:34,387 692824ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:49:39,374 697811ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:49:40,617 699054ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:49:40,621 699058ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:50:13,016 731453ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:50:59,683 778120ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:51:02,387 780824ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:51:02,387 780824ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:51:09,361 787799ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:51:09,365 787803ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:51:12,493 790931ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:51:13,891 792328ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:51:13,891 792328ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:51:18,926 797363ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:51:18,926 797363ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:51:22,978 801415ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:51:22,978 801415ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:53:06,552   730ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 22:53:06,580   758ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 22:53:07,203  1381ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 22:53:28,083  1324ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 22:53:28,163  1404ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 22:53:31,112  4353ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 22:53:46,390 19630ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:53:52,053 25294ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:53:53,421 26661ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:53:53,437 26677ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:54:03,191 36431ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:54:03,191 36431ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:54:08,341 41581ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:54:08,341 41581ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:54:12,120 45360ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:54:12,120 45360ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:54:19,284 52524ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:54:19,288 52528ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:55:38,997 132237ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:55:43,157 136397ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:55:43,157 136397ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:55:47,102 140342ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:55:47,102 140342ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:55:52,599 145839ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:55:52,599 145839ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:55:56,981 150221ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:55:56,981 150221ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:56:01,128 154368ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:56:01,128 154368ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:56:07,202 160442ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:56:07,202 160442ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:57:20,342 233583ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:57:20,342 233583ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:57:25,661 238901ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:57:25,661 238901ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:57:37,674 250914ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:57:37,678 250918ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:58:01,380 274620ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:58:03,240 276481ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:58:04,396 277636ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:58:04,396 277636ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:58:06,125 279365ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:58:06,129 279369ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:58:08,607 281848ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:58:09,835 283075ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:58:09,835 283075ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:58:16,409 289649ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:58:16,409 289649ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:58:47,657   478ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 22:58:47,677   498ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 22:58:47,799   620ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 22:58:55,340  8161ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:58:57,926 10747ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:58:57,926 10747ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:59:03,974 16795ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:59:03,974 16795ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:59:16,242 29063ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:59:16,246 29067ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:59:28,767 41588ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:59:28,767 41588ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:59:34,859 47680ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:59:34,859 47680ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:59:41,125 53946ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:59:41,129 53950ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 22:59:47,523 60344ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 22:59:47,523 60344ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 23:00:01,738 74559ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:00:01,738 74559ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 23:00:10,631 83453ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:00:10,631 83453ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 23:00:24,184 97006ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:00:24,184 97006ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 23:00:31,175 103996ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:00:31,179 104000ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 23:00:50,577 123398ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:00:50,581 123402ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 23:00:57,415 130236ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:00:57,419 130240ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 23:01:09,072 141893ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:01:09,072 141893ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 23:01:44,024 176846ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:01:44,028 176850ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 23:01:50,040 182861ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:01:50,040 182861ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 23:01:54,761 187582ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:01:54,761 187582ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 23:02:04,546 197367ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:02:04,546 197367ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 23:02:31,362 224183ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:02:31,366 224187ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 23:05:00,683 373504ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:05:45,024 417845ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:10:02,333 675154ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:10:13,656 686477ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:10:39,298 712119ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:11:06,442 739264ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:11:37,788 770609ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:11:43,853 776675ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:11:43,853 776675ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 23:12:27,290 820111ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:12:30,311 823132ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:12:30,311 823132ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 23:12:36,780 829601ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:12:36,780 829601ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 23:13:11,016 863837ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:13:11,016 863837ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 23:13:52,297 905118ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:14:38,638 951459ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:14:41,826 954647ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 23:14:41,826 954647ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 23:14:41,830 954651ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 23:15:28,084 1000905ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:15:28,612 1001433ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:15:38,998 1011819ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:15:41,940 1014761ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:15:43,786 1016607ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 23:15:43,786 1016607ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 23:15:43,790 1016611ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 23:16:46,193 1079014ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:17:22,456 1115278ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:17:53,377 1146198ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:18:02,149 1154970ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:18:28,351 1181172ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:18:35,874 1188695ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 23:18:35,874 1188695ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 23:18:35,878 1188699ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 23:19:40,224   413ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 23:19:40,244   433ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 23:19:40,877  1067ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 23:19:57,967 18157ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 23:19:57,967 18157ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 23:19:57,971 18161ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 23:22:50,380 190569ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 23:22:50,380 190569ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 23:22:50,384 190573ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 23:23:58,519 258709ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 23:23:58,519 258709ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 23:23:58,523 258713ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 23:24:01,631 261821ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 23:24:01,631 261821ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 23:24:01,635 261825ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 23:33:59,439 859629ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 23:33:59,439 859629ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 23:33:59,555 859745ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 23:34:02,264 862454ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 23:34:02,264 862454ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 23:34:02,268 862458ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 23:35:44,346 964535ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 23:35:44,346 964535ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 23:35:44,464 964654ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 23:37:27,534 1067724ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 23:37:27,538 1067728ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 23:37:27,646 1067836ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 23:37:58,424 1098613ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 23:37:58,424 1098613ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 23:37:58,428 1098617ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 23:39:10,083 1170273ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 23:39:10,083 1170273ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 23:39:10,189 1170379ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 23:39:40,942 1201131ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 23:39:40,942 1201131ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 23:39:41,023 1201212ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 23:41:59,330 1339520ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 23:41:59,330 1339520ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 23:41:59,443 1339633ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 23:42:52,750 1392940ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 23:42:52,750 1392940ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 23:42:52,870 1393060ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 23:44:53,332 1513522ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 23:44:53,336 1513526ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 23:44:53,445 1513635ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 23:45:32,000 1552190ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 23:45:32,000 1552190ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 23:45:32,004 1552194ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 23:47:00,648 1640838ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 23:47:00,652 1640842ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 23:47:00,764 1640954ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 23:47:06,855 1647044ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:47:08,989 1649179ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:47:10,154 1650344ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:47:10,158 1650348ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 23:47:11,750 1651939ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 23:47:11,750 1651939ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 23:47:11,750 1651939ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 23:47:36,352 1676542ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:47:38,246 1678435ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:47:38,250 1678439ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-01 23:47:45,004 1685193ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 23:47:45,008 1685197ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 23:47:45,008 1685197ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 23:58:25,397   520ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-01 23:58:25,417   540ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-01 23:58:25,801   924ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-01 23:58:33,222  8344ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:58:36,023 11145ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-01 23:58:36,023 11145ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-02 00:02:44,353   448ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-02 00:02:44,385   480ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-02 00:02:44,686   781ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-02 00:02:56,783 12877ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-02 00:02:59,018 15112ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-02 00:02:59,018 15112ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-02 00:07:54,181 310275ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-02 00:07:54,181 310275ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-02 00:07:54,292 310386ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-02 00:07:57,149 313243ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-02 00:08:08,447 324541ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-02 00:08:14,540 330634ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-02 00:10:15,194 451288ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-02 00:10:17,510 453604ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-02 00:10:25,016 461110ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-02 00:15:36,821 772915ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-02 00:18:35,428 951522ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-02 00:18:35,430 951524ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-02 00:18:35,578 951672ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-02 00:18:44,999 961093ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-02 00:18:47,811 963906ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-02 00:18:59,677 975771ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-02 00:19:39,357   401ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-02 00:19:39,382   426ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-02 00:19:39,686   730ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-02 00:19:50,616 11661ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-02 00:19:52,571 13615ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-02 00:19:52,574 13618ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-02 00:23:27,011 228055ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-02 00:23:27,013 228057ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-02 00:23:27,121 228166ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-02 00:23:34,593 235637ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-02 00:23:37,023 238067ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-02 00:23:37,024 238068ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-02 00:32:07,456 748501ms ApartmentController    Index              - url visited by user:/apartment/Index
+INFO  2016-12-02 00:32:07,456 748501ms ApartmentService       GetAllApartments   - Fetching list of all apartments from database.
+INFO  2016-12-02 00:32:07,600 748644ms ApartmentService       GroupApartments    - Grouping apartments according to Suburbs.
+INFO  2016-12-02 00:32:12,857 753901ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-02 00:32:19,921 760965ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-02 00:32:27,574 768618ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-02 00:33:33,625 834669ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-02 00:33:33,626 834670ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.
+INFO  2016-12-02 00:36:31,216 1012261ms ApartmentController    Search             - url visited by user:/apartment/search
+INFO  2016-12-02 00:36:31,217 1012262ms ApartmentService       tmentsByParameters - Seraching apartments according to parameters entered by the user.

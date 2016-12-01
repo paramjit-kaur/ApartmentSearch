@@ -1,5 +1,8 @@
 ﻿@model IEnumerable<IGrouping<string, ApartmentSearch.Models.Apartment>>
 @{
+   
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
     ViewBag.Title = "Apartments";
 }
 
@@ -18,61 +21,45 @@
                     <h3>Apartments</h3>
                 </div>
                 @if (Model != null)
-                {
-                    <small>
-                        <div>
-                            @foreach (var grouppedApartments in Model)
-                            {
-                                int counter = 0;
-                                string suburbKey = grouppedApartments.Key;
-                                <h6><b>@suburbKey,</b></h6>
-                                foreach (var apartment in grouppedApartments)
-                                {
-                                    counter++;
-                                
-                                <h6>@apartment.City</h6>
-                                <table class="table table-condensed table-hover">
-                                    <tbody>
+                { 
+                    <div>
+                        <div style="float:right">@Html.ActionLink("Search Apartments", "Search")</div>
+                        <br />
+                        @foreach (var grouppedApartments in Model)
+                        {
+                            int counter = 0;
+                            string suburbKey = grouppedApartments.Key;
+                            <h6><b>@suburbKey, @grouppedApartments.FirstOrDefault().City</b></h6>  
+                            <table class="table table-condensed table-hover">
+                                <thead>
+                                    <tr>
+                                        <th class="col-sm-1">#</th>
+                                        <th class="col-sm-3">Address</th>
+                                        <th class="col-sm-1">Rooms</th>
+                                        <th class="col-sm-1">Bathrooms</th>
+                                        <th class="col-sm-1">Carports</th>
+                                        <th class="col-sm-5"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var apartment in grouppedApartments)
+                                    {
+                                        counter++;                            
                                         <tr>
-                                            <td class="col-sm-1"><b>@counter</b>
-                                            </td>
-                                        <td class="col-sm-2"><b>Address</b></td>
-                                            <td class="col-sm-3">
-                                                @apartment.Address
-                                            </td>
-                                            <td class="col-sm-6"></td>
-                                        </tr>
-                                        <tr>
-                                            <td></td>
-                                            <td><b>Rooms</b></td>
-                                            <td>
-                                                @apartment.Rooms
-                                            </td>
-                                             <td class="col-sm-6"></td>
-                                        </tr>
-                                        <tr>
-                                            <td></td>
-                                            <td><b>Bathrooms</b></td>
-                                            <td>
-                                                @apartment.Bathrooms
-                                            </td>
-                                             <td class="col-sm-6"></td>
-                                        </tr>
-                                        <tr>
-                                            <td></td>
-                                            <td><b>Carports</b></td>
-                                            <td>
-                                                @apartment.Carports
-                                            </td>
-                                             <td class="col-sm-6"></td>
-                                        </tr>
-                                    </tbody>
+                                            <td class="col-sm-1">@counter</td>
+                                            <td class="col-sm-3">@apartment.Address</td>
+                                            <td class="col-sm-1">@apartment.Rooms</td>
+                                            <td class="col-sm-1">@apartment.Bathrooms</td>
+                                            <td class="col-sm-1">@apartment.Carports</td>
+                                            <td class="col-sm-5"></td>
+                                        </tr>                                  
+                                    }
+                                </tbody>
 
-                                </table>
-                                }
-                            }
-                        </div>
-                    </small>                                       
+                            </table>
+                        }
+
+                    </div>                                     
                 }
             </div>
         </div>

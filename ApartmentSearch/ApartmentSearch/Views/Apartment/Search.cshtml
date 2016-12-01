@@ -1,3 +1,152 @@
-﻿@{
+﻿@model List<ApartmentSearch.Models.Apartment>
+@{
     ViewBag.Title = "Search Apartments";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
+@section Scripts 
+{
+    @Scripts.Render("~/bundles/jqueryval")
+}
+<header>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</header>
+<div id="body">
+    <section>
+        <div class="container">
+            <div class="form-horizontal">
+                <h3>Search Apartments</h3>
+            </div>
+            <div>
+                @using (Html.BeginForm("Search", "Apartment"))
+                {               
+                    <table>
+                        <tr>
+                            <td class="table-td">
+                                @Html.Label("Address:")</td>
+                            <td style="padding: 3px">@Html.TextBox("Address")</td>
+                        </tr>
+                        <tr>
+                            <td>@Html.Label("Suburb:")</td>
+                            <td style="padding: 3px">@Html.TextBox("Suburb")</td>
+                        </tr>
+                        <tr>
+                            <td>@Html.Label("Rooms:")</td>
+                            <td style="padding: 3px">@Html.DropDownList("Rooms", new SelectList(
+                  new List<Object>{ 
+                       new { value = 0 , text = "0"  },
+                       new { value = 1 , text = "1" },
+                       new { value = 2 , text = "2"},
+                        new { value = 3 , text = "3"},
+                         new { value = 4 , text = "4"},
+                          new { value = 5 , text = "5"}                          
+                    }, "value", "text", 0), new { style = "width: 50px;" })
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>@Html.Label("Bathrooms:")</td>
+
+                            <td style="padding: 3px">@Html.DropDownList("Bathrooms", new SelectList(
+                  new List<Object>{ 
+                       new { value = 0 , text = "0"  },
+                       new { value = 1 , text = "1" },
+                        new { value = 2 , text = "1.5" },
+                       new { value = 3 , text = "2"},
+                        new { value = 4 , text = "2.5" },
+                        new { value = 5 , text = "3"},
+                         new { value = 6 , text = "3.5" },
+                         new { value = 7 , text = "4"},
+                          new { value = 8 , text = "4.5" },
+                          new { value = 9 , text = "5"}                          
+                    }, "value", "text", 0), new { style = "width: 50px;" })
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>@Html.Label("Carports:")</td>
+                            <td style="padding: 3px">@Html.DropDownList("Carports", new SelectList(
+                  new List<Object>{ 
+                       new { value = 0 , text = "0"  },
+                       new { value = 1 , text = "1" },
+                       new { value = 2 , text = "2"},
+                        new { value = 3 , text = "3"},
+                         new { value = 4 , text = "4"},
+                          new { value = 5 , text = "5"}                          
+                    }, "value", "text", 0), new { style = "width: 50px;" })</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="submit" value="Search" />
+                                @Html.ActionLink("Reset", "ResetFields")
+                            </td>
+                            <td style="text-align: right">
+
+                                @Html.ActionLink("Back", "Index")</td>
+                        </tr>
+
+                    </table>
+                    <br />
+                    <section class="content-wrapper main-content clear-fix">
+                        @if (Model != null)
+                        {                           
+                            <div>
+                                <table class="table table-condensed table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th class="col-sm-3">Address</th>
+                                            <th class="col-sm-1">Suburb</th>
+                                            <th class="col-sm-1">Rooms</th>
+                                            <th class="col-sm-1">Bathrooms</th>
+                                            <th class="col-sm-1">Carports</th>
+                                            <th class="col-sm-5"></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var searchedApartments in Model)
+                                        {                                              
+                                            <tr>
+                                                <td>@if ((ViewData["Address"])!=null)
+                                                    {
+                                                    @Html.Raw(searchedApartments.Address.Replace((string)ViewData["Address"], "<span class='highlighted'>" + (string)ViewData["Address"] + "</span>"))
+                                                    }
+                                                    else
+                                                    {
+                                                    @searchedApartments.Address
+                                                    }
+                                                </td>
+                                                <td>@if ((ViewData["Suburb"]!=null))
+                                                    {
+                                                    @Html.Raw(searchedApartments.Suburb.Replace((string)ViewData["Suburb"], "<span class='highlighted'>" + (string)ViewData["Suburb"] + "</span>"))
+                                                    }
+                                                    else
+                                                    {
+                                                    @searchedApartments.Suburb
+                                                    }
+                                                </td>
+                                                <td>
+                                                    @searchedApartments.Rooms
+                                                </td>
+                                                <td>
+                                                    @searchedApartments.Bathrooms
+                                                </td>
+                                                <td>
+                                                    @searchedApartments.Carports
+                                                </td>
+                                                <td class="col-sm-5"></td>
+                                            </tr>                                                
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>                                                                
+                        }
+                    </section>
+                }
+            </div>
+        </div>
+    </section>
+    <section class="content-wrapper main-content clear-fix">
+    </section>
+</div>

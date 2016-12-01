@@ -59,3 +59,15 @@ textarea {
 .validation-summary-valid {
     display: none;
 }
+
+
+.table-td {
+    margin: 2px;
+    padding: 2px;
+}
+
+.highlighted {
+    font-weight: bold;
+    background: yellow;
+}
+}

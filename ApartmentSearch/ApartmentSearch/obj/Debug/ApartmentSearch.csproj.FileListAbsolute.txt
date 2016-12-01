@@ -38,3 +38,4 @@ F:\ApartmentSearch\ApartmentSearch\ApartmentSearch\bin\System.Web.WebPages.Deplo
 F:\ApartmentSearch\ApartmentSearch\ApartmentSearch\bin\System.Web.WebPages.Razor.xml
 F:\ApartmentSearch\ApartmentSearch\ApartmentSearch\obj\Debug\ApartmentSearch.dll
 F:\ApartmentSearch\ApartmentSearch\ApartmentSearch\obj\Debug\ApartmentSearch.pdb
+F:\ApartmentSearch\ApartmentSearch\ApartmentSearch\obj\Debug\ApartmentSearch.csprojResolveAssemblyReference.cache

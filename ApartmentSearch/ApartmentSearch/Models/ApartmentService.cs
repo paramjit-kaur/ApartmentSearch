@@ -64,17 +64,17 @@ namespace ApartmentSearch.Models
         /// <param name="bathrooms"></param>
         /// <param name="carports"></param>
         /// <returns>List of apartments.</returns>
-        public List<Apartment> GetApartmentsByParameters(string city, string address, string suburb, int rooms, decimal bathrooms, int carports)
+        public List<Apartment> GetApartmentsByParameters(Apartment searchApartment)
         {
             try
             {
                 logger.Info("Seraching apartments according to parameters entered by the user.");
 
-                var apartments = (from apartment in apartmentDB.Apartments
-                                  where apartment.City == city || apartment.Address == address ||
-                                  apartment.Suburb == suburb || apartment.Rooms == rooms ||
-                                   apartment.Bathrooms == bathrooms || apartment.Carports == carports
-                                  select apartment).ToList();
+                var apartments = (apartmentDB.Apartments.Where(p=>p.Address.Contains(searchApartment.Address) ||
+                                                  p.Suburb.Contains(searchApartment.Suburb) || p.Rooms == searchApartment.Rooms ||
+                                                   p.Bathrooms == searchApartment.Bathrooms || p.Carports == searchApartment.Carports
+                                                 )).ToList();
+
                 return apartments;
             }
             catch (Exception ex)

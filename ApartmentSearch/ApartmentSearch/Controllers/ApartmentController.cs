@@ -34,12 +34,29 @@ namespace ApartmentSearch.Controllers
             return View(apartments);
         }
 
-        public ActionResult Search(string city, string address, string suburb, int rooms, decimal bathrooms, int carports)
+
+        public ActionResult Search()
+        {
+            logger.Info("url visited by user:/apartment/search");  //Adding url details into logger.
+            return View("Search");
+        }
+
+        [HttpPost]
+        public ActionResult Search(Apartment apartment)
         {
             logger.Info("url visited by user:/apartment/search");  //Adding url details into logger.
 
-            List<Apartment> apartments = service.GetApartmentsByParameters(city, address, suburb, rooms, bathrooms, carports);    //Retrieving list of all the apartments calling service method.
+            ViewData["Address"] = apartment.Address;
+            ViewData["Suburb"] = apartment.Suburb;
+
+            List<Apartment> apartments = service.GetApartmentsByParameters(apartment);    //Retrieving list of apartments by parameters passed.
+
             return View(apartments);
+        }
+
+        public ActionResult ResetFields()
+        {
+            return RedirectToAction("Search");
         }
     }
 
